@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3a92031b-c595-45f2-8f70-92be24dfaf22" name="Changes" comment="&quot;创建仓库 第一提交代码 主要写了图的相关代码&quot;">
+      <change afterPath="$PROJECT_DIR$/01-排序/src/cn/doudou/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-排序/src/cn/doudou/tools/Asserts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-排序/src/cn/doudou/tools/Integers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-排序/src/cn/doudou/tools/Times.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/03-图/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/03-图/src/cn/doudou/Graph.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2J8YC27xVk6MefQePjRIxlf5e5D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\learning-code\Java\算法-第二季\03-图\src\cn\doudou" />
+      <recent name="D:\learning-code\Java\算法-第二季\02-并查集\src\cn\doudou" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\learning-code\Java\算法-第二季\01-排序\src\cn\doudou" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.doudou.union" />
+      <recent name="cn.doudou.sort" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="DatabaseTool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DatabaseTool" />
+      <module name="03-图" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.Main" />
+      <module name="02-并查集" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.doudou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="03-图" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.Main" />
+      <module name="01-排序" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.doudou.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.DatabaseTool" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Mi\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a92031b-c595-45f2-8f70-92be24dfaf22" name="Changes" comment="" />
+      <created>1671461047503</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671461047503</updated>
+      <workItem from="1671461048719" duration="72000" />
+      <workItem from="1671461696136" duration="869000" />
+      <workItem from="1671516038138" duration="20000" />
+      <workItem from="1671542016098" duration="670000" />
+      <workItem from="1671544040460" duration="2866000" />
+      <workItem from="1671549034890" duration="484000" />
+      <workItem from="1671600061100" duration="198000" />
+      <workItem from="1671600422041" duration="50000" />
+      <workItem from="1671600696740" duration="233000" />
+      <workItem from="1671601065256" duration="39000" />
+      <workItem from="1671601227219" duration="17000" />
+      <workItem from="1671601483037" duration="417000" />
+      <workItem from="1671693604573" duration="707000" />
+      <workItem from="1671720350592" duration="87000" />
+      <workItem from="1671721085364" duration="1431000" />
+      <workItem from="1671771967558" duration="3098000" />
+      <workItem from="1671778020255" duration="1367000" />
+      <workItem from="1671779869903" duration="154000" />
+      <workItem from="1671780664272" duration="596000" />
+      <workItem from="1671803799325" duration="1913000" />
+      <workItem from="1671865146771" duration="2096000" />
+      <workItem from="1671868248888" duration="2798000" />
+      <workItem from="1671940462993" duration="5477000" />
+      <workItem from="1671975796687" duration="3708000" />
+      <workItem from="1672031743302" duration="9496000" />
+      <workItem from="1672151782258" duration="714000" />
+      <workItem from="1672152600218" duration="61000" />
+      <workItem from="1672152807233" duration="53000" />
+      <workItem from="1672204975896" duration="1220000" />
+      <workItem from="1672206720737" duration="53000" />
+      <workItem from="1672207085343" duration="135000" />
+      <workItem from="1672207967317" duration="72000" />
+      <workItem from="1672208401767" duration="108000" />
+      <workItem from="1672208776336" duration="25000" />
+      <workItem from="1672208873609" duration="71000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;创建仓库 第一提交代码 主要写了图的相关代码&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;创建仓库 第一提交代码 主要写了图的相关代码&quot;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,43 @@
+package cn.doudou.sort;
+
+public class HeapSort extends Sort {
+	private int heapSize;
+
+	@Override
+	protected void sort() {
+		heapSize = array.length;
+		for (int i = ((heapSize >> 1) - 1); i >= 0; i--) {
+			siftDown(i);
+		}
+
+		while (heapSize > 1) {
+			swap(0, --heapSize);
+
+		}
+	}
+
+	private void siftDown(int index) {
+		Integer e = array[index];
+		int half = heapSize >> 1;
+		while (index < half) {
+			int chindIndex = (index << 1) + 1;
+			Integer chind = array[chindIndex];
+
+			int rightIndex = chindIndex + 1;
+			Integer rightElement = array[rightIndex];
+			if (rightIndex < heapSize && compare(rightElement, chind) > 0) {
+				chind = array[chindIndex = rightIndex];
+			}
+			if (compare(e, chind) >= 0)
+				break;
+			array[index] = chind;
+			index = chindIndex;
+		}
+		array[index] = e;
+	}
+
+	protected int compare(Integer e1, Integer e2) {
+		return e1 - e2;
+	}
+
+}
