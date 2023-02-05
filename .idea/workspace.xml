@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a92031b-c595-45f2-8f70-92be24dfaf22" name="Changes" comment="&quot;创建仓库 第一提交代码 主要写了图的相关代码&quot;">
+    <list default="true" id="3a92031b-c595-45f2-8f70-92be24dfaf22" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/01-排序/src/cn/doudou/Student.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/01-排序/src/cn/doudou/tools/Asserts.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/01-排序/src/cn/doudou/tools/Integers.java" afterDir="false" />
@@ -175,7 +175,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;创建仓库 第一提交代码 主要写了图的相关代码&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;创建仓库 第一提交代码 主要写了图的相关代码&quot;" />
+    <MESSAGE value="&quot;新增了04-递归篇章&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;新增了04-递归篇章&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
