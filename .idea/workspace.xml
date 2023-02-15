@@ -74,7 +74,20 @@
       <recent name="cn.doudou.sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Fib">
+  <component name="RunManager" selected="Application.Hanoi">
+    <configuration name="Climbstairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.Climbstairs" />
+      <module name="04-递归" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.doudou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DatabaseTool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DatabaseTool" />
       <module name="03-图" />
@@ -95,9 +108,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.doudou.Main" />
-      <module name="02-并查集" />
+    <configuration name="Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.Hanoi" />
+      <module name="04-递归" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.doudou.*" />
@@ -115,26 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.doudou.Main" />
-      <module name="01-排序" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.doudou.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Hanoi" />
+        <item itemvalue="Application.Climbstairs" />
         <item itemvalue="Application.Fib" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.DatabaseTool" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
