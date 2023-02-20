@@ -1,6 +1,7 @@
 package cn.doudou;
 
 import cn.doudou.sort.*;
+import cn.doudou.sort.cmp.BubbleSort1;
 import cn.doudou.sort.cmp.BubbleSort3;
 import cn.doudou.sort.cmp.ShellSort;
 import cn.doudou.tools.Asserts;
@@ -43,9 +44,10 @@ public class Main {
      * 三个版本的对比
      */
     static void tset1() {
-        //Integer[] array = Integers.random(10000, 0, 100000);
-         Integer[] array = {7, 3, 5, 8, 6, 7, 4, 5};
+        Integer[] array = Integers.random(100000, 0, 1000000);
+        //Integer[] array = {7, 3, 5, 8, 6, 7, 4, 5};
         testSort(array,
+                //new BubbleSort1()
                 //new BubbleSort3(),
                 //new SelectionSort(),
                 //new InsertSort(),
@@ -54,8 +56,7 @@ public class Main {
                 //new QuickSort(),
                 //new MergeSort(),
                 //new HeapSort(),
-                //new ShellSort(),
-                new CountingSort()
+                new ShellSort(), new CountingSort()
         );
 
     }
@@ -108,8 +109,7 @@ public class Main {
                     sorted = false;
                 }
             }
-            if (sorted)
-                break;
+            if (sorted) break;
         }
     }
 

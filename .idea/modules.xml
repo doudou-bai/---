@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/02-并查集/02-并查集.iml" filepath="$PROJECT_DIR$/02-并查集/02-并查集.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-图/03-图.iml" filepath="$PROJECT_DIR$/03-图/03-图.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-递归/04-递归.iml" filepath="$PROJECT_DIR$/04-递归/04-递归.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-回溯/05-回溯.iml" filepath="$PROJECT_DIR$/05-回溯/05-回溯.iml" />
       <module fileurl="file://$PROJECT_DIR$/算法-第二季.iml" filepath="$PROJECT_DIR$/算法-第二季.iml" />
     </modules>
   </component>
