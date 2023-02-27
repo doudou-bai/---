@@ -8,9 +8,14 @@ import com.sun.media.sound.RIFFInvalidDataException;
  */
 public class Queens2 {
     public static void main(String[] args) {
-        new Queens2().placeQueens(4);
+        new Queens2().placeQueens(8);
     }
 
+
+    /**
+     * 数组索引是行号 数组元素是列号
+     */
+    int[] queens;
     // cols[row] = col; 表示第row行第col列摆放了皇后
     boolean cols[];
     //左上角->右下角
@@ -31,6 +36,7 @@ public class Queens2 {
         if (n < 1) return;
         //设置row的值
         cols = new boolean[n];
+        queens = new int[n];
         leftTop = new boolean[(n << 1) - 1];
         rightTop = new boolean[leftTop.length];
         //调摆放皇后的方法
@@ -66,6 +72,7 @@ public class Queens2 {
             int rtIndex = row + col;
             //根据计算出来rightTop的索引位置查看该行是不是已经摆放皇后
             if (rightTop[rtIndex]) continue;
+            queens[row] = col;
             //如果可以摆放就把循环的值赋值
             cols[col] = leftTop[ltIndex] = rightTop[rtIndex] = true;
             //然后在进行递归 row+1
@@ -80,17 +87,17 @@ public class Queens2 {
      * N皇后的打印
      */
     void show() {
-       /* for (int row = 0; row < cols.length; row++) {
+        for (int row = 0; row < cols.length; row++) {
             for (int col = 0; col < cols.length; col++) {
-                if (cols[row]) { // 摆放了皇后
-                    System.out.print("Q");
+                if (queens[row] == col) { // 摆放了皇后
+                    System.out.print(" 1 ");
                 } else {
-                    System.out.print(" ");
+                    System.out.print(" 0 ");
                 }
             }
             System.out.println();
         }
-        System.out.println("--------------------------");*/
+        System.out.println("--------------------------");
     }
 
 }

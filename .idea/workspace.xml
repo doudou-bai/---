@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a92031b-c595-45f2-8f70-92be24dfaf22" name="Changes" comment="&quot;新增了04-递归篇章&quot;">
+    <list default="true" id="3a92031b-c595-45f2-8f70-92be24dfaf22" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/01-排序/src/cn/doudou/Student.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/01-排序/src/cn/doudou/tools/Asserts.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/01-排序/src/cn/doudou/tools/Integers.java" afterDir="false" />
@@ -76,9 +76,9 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Climbstairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.doudou.Climbstairs" />
-      <module name="04-递归" />
+    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.CoinChange" />
+      <module name="06-贪心" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.doudou.*" />
@@ -89,9 +89,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.doudou.Hanoi" />
-      <module name="04-递归" />
+    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.ks.Knapsack" />
+      <module name="06-贪心" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.doudou.ks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.Main" />
+      <module name="06-贪心" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.doudou.*" />
@@ -104,7 +117,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.doudou.Main" />
-      <module name="01-排序" />
+      <module name="07-分治" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.doudou.*" />
@@ -115,22 +128,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Queens1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.doudou.Queens1" />
-      <module name="05-回溯" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.doudou.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Queens2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.doudou.Queens2" />
-      <module name="05-回溯" />
+    <configuration name="Pirate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.Pirate" />
+      <module name="06-贪心" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.doudou.*" />
@@ -144,10 +144,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Queens2" />
-        <item itemvalue="Application.Queens1" />
-        <item itemvalue="Application.Hanoi" />
-        <item itemvalue="Application.Climbstairs" />
+        <item itemvalue="Application.Knapsack" />
+        <item itemvalue="Application.CoinChange" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Pirate" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +207,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;创建仓库 第一提交代码 主要写了图的相关代码&quot;" />
     <MESSAGE value="&quot;新增了04-递归篇章&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;新增了04-递归篇章&quot;" />
+    <MESSAGE value="对于N皇后问题的算法 使用了回溯的一些技术" />
+    <option name="LAST_COMMIT_MESSAGE" value="对于N皇后问题的算法 使用了回溯的一些技术" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
